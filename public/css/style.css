@@ -1,0 +1,40 @@
+body {
+    background-color: #f8f9fa; 
+}
+
+.sidebar {
+    padding: 20px; 
+}
+
+main {
+    background-color: white;
+    border-radius: 8px;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+    text-decoration: none;
+}
+
+.sidebar a.active {
+    background-color:#0d6efd; 
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+}
+
+.content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.table th, .table td {
+    overflow: hidden; /* Prevent overflow of content */
+    text-overflow: ellipsis; /* Optional: Add ellipsis for overflowing text */
+    white-space: nowrap; /* Prevent text wrapping */
+}
